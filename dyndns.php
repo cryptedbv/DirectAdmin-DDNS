@@ -54,7 +54,7 @@ if ($data["publicip"] === $publicip) {
             'domain' => $domain,
             'action' => 'add',
             'type' => 'A',
-            'name' => $subdomain . '.',
+            'name' => $subdomain,
             'value'    => $publicip,
         )
     );
